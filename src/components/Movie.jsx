@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Movie = ({ movie }) => {
-    console.log("recibo" + movie)
     return (
         <div className="movie">
             {movie.featured && <div className="featured">
