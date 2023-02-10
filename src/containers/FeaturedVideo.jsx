@@ -5,11 +5,9 @@ import featuredVideo from '../assets/videos/featured.mp4';
 const FeaturedVideo = () => {
 
     const videoRef = useRef();
-
+    
     const handleVideo = () => {
         videoRef.current.play();
-        // Hide play button
-        //videoRef.current.parentElement.querySelector('img').style.visibility = 'hidden';
     }
 
     return (
