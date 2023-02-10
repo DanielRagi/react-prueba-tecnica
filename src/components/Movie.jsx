@@ -4,6 +4,9 @@ const Movie = ({ movie }) => {
     console.log("recibo" + movie)
     return (
         <div className="movie">
+            {movie.featured && <div className="featured">
+                <p className="featured-text">Featured</p>
+            </div>}
             <div className="movie-cover">
                 <img src={movie.cover} alt="movie cover" />
             </div>
