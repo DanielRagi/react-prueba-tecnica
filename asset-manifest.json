@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-prueba-tecnica/static/css/main.06e0de1d.css",
-    "main.js": "/react-prueba-tecnica/static/js/main.b0f9838c.js",
+    "main.js": "/react-prueba-tecnica/static/js/main.71c11ef3.js",
     "static/media/featured.mp4": "/react-prueba-tecnica/static/media/featured.b06418a01ea046963045.mp4",
     "static/media/revicons.eot": "/react-prueba-tecnica/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-prueba-tecnica/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/react-prueba-tecnica/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react-prueba-tecnica/index.html",
     "main.06e0de1d.css.map": "/react-prueba-tecnica/static/css/main.06e0de1d.css.map",
-    "main.b0f9838c.js.map": "/react-prueba-tecnica/static/js/main.b0f9838c.js.map"
+    "main.71c11ef3.js.map": "/react-prueba-tecnica/static/js/main.71c11ef3.js.map"
   },
   "entrypoints": [
     "static/css/main.06e0de1d.css",
-    "static/js/main.b0f9838c.js"
+    "static/js/main.71c11ef3.js"
   ]
 }
