@@ -1,11 +1,11 @@
 import React from 'react';
 import CarouselRight from './CarouselRight';
-import CarouselHeader from '../components/CarouselHeader';
+import CarouselHeaderR from '../components/CarouselHeaderR';
 
 const SectionCarouselL = () => {
     return (
         <section className="movies-carousel r">
-            <CarouselHeader />
+            <CarouselHeaderR />
             <CarouselRight />
         </section>
     );

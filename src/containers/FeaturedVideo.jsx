@@ -7,7 +7,16 @@ const FeaturedVideo = () => {
     const videoRef = useRef();
     
     const handleVideo = () => {
-        videoRef.current.play();
+        if(videoRef.current.paused === true) {
+            videoRef.current.play();
+            videoRef.current.parentElement.children[3].classList.toggle("hide");
+            videoRef.current.parentElement.children[2].classList.toggle("hide");
+        } else {
+            videoRef.current.pause();
+            videoRef.current.parentElement.children[3].classList.toggle("hide");
+            videoRef.current.parentElement.children[2].classList.toggle("hide");
+        }
+        
     }
 
     return (

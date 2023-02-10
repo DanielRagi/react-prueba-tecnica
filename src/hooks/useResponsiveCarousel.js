@@ -20,11 +20,19 @@ const useResponsiveCarousel = {
         items: 3
     },
     6: {
-        breakpoint: { max: 1050, min: 780 },
+        breakpoint: { max: 1050, min: 800 },
         items: 2
     },
     7: {
-        breakpoint: { max: 780, min: 0 },
+        breakpoint: { max: 800, min: 728 },
+        items: 3
+    },
+    8: {
+        breakpoint: { max: 728, min: 480 },
+        items: 2
+    },
+    9: {
+        breakpoint: { max: 480, min: 0 },
         items: 1
     }
 };

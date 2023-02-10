@@ -1,12 +1,12 @@
 import React from 'react';
 import CarouselLeft from '../containers/CarouselLeft';
-import CarouselHeader from '../components/CarouselHeader';
+import CarouselHeaderL from '../components/CarouselHeaderL';
 
 const SectionCarouselR = () => {
     return (
         <section className="movies-carousel">
             <CarouselLeft />
-            <CarouselHeader />
+            <CarouselHeaderL />
         </section>
     );
 }

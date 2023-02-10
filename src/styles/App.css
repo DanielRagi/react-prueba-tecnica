@@ -56,6 +56,8 @@ body {
   flex-direction: column;
   justify-content: center;
   z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s linear;
 }
 
 .featured-video-title h1 {
@@ -89,6 +91,8 @@ body {
 .featured-video-container img {
   margin-right: 15%;
   padding-right: 15%;
+  opacity: 1;
+  transition: opacity 0.5s linear;
   z-index: 1;
 }
 
@@ -135,8 +139,6 @@ body {
   padding-bottom: 30px;
   background-color: var(--background-color);
 }
-
-
 
 .movie .movie-info .movie-genre,
 .movie .movie-info .movie-name {
@@ -201,31 +203,78 @@ body {
 .carousel-button-group {
   position: relative;
   right: -45px;
-  top: 130px;
+  top: 160px;
   display: flex;
   width: 40px;
   height: 40px;
 }
 
 .carousel-button-group img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-  
+
 .carousel-button-group-l {
   position: absolute;
   left: 15%;
-  top: 1190px;
+  top: 1230px;
   display: flex;
   width: 40px;
   height: 40px;
 }
 
 .carousel-button-group-l img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-  
+
 .carousel-item img {
   width: 164px;
   height: 240px;
   object-fit: cover;
+}
+
+.hide {
+  opacity: 0 !important;
+}
+
+@media (max-width: 800px) {
+  .featured-video-container img {
+    display: none;
+  }
+  
+  .featured-video-title {
+    width: 80%;
+    margin: 10%;
+  }
+
+  .carousel-button-group {
+    position: absolute;
+    left: 40%;
+    top: 1030px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-button-group-l {
+    position: absolute;
+    left: 40%;
+    top: 1430px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+  }
+
+  .movies-carousel {
+    height: 330px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .movies-carousel-r {
+    height: 330px;
+  }
+
+  .movies-carousel .movies-carousel-header .line {
+    display: none;
+  }
 }

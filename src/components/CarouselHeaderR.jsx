@@ -1,13 +1,13 @@
 import React from 'react';
 
-const CarouselHeader = () => {
+const CarouselHeaderR = () => {
     return (
         <div className="movies-carousel-header">
-            <p className="header-title">Action & Drama Movies</p>
+            <p className="header-title">Funniest Comedy Movies of 2018</p>
             <div className="line"></div>
             <p className="view">VIEW ALL +</p>
         </div>
     );
 }
 
-export default CarouselHeader;
+export default CarouselHeaderR;
